@@ -7,7 +7,7 @@ MODULE_DESCRIPTION( "Test module for using parameters" );
 MODULE_LICENSE( "GPL" );
 
 
-static char* name = "World";				//default value for name is "World"
+static char* name = "World";			//default value for name is "World"
 module_param( name, charp, S_IRUGO );		//charp = char ptr
 MODULE_PARM_DESC( name, "name to display in /var/log/kern.log" );
 
