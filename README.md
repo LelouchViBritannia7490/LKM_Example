@@ -1,7 +1,7 @@
-LKM_Example
+# LKM_Example
 
 
-useful commands:
+### useful commands:
 
 make
     compile c-source-code to .ko(LKM) and .o
@@ -18,7 +18,7 @@ lsmod
 modinfo
     information about a module
 
-useful files/directories
+### useful files/directories
 
 /var/log/kern.log
     kernel ring buffer
