@@ -5,7 +5,7 @@
 
 * make
     
-**    compile c-source-code to .ko(LKM) and .o
+*    compile c-source-code to .ko(LKM) and .o
 * make clean
     cleans the folder(deletes everthing without .c and Makefile)
 * dmesg
